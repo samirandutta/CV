@@ -1,0 +1,244 @@
+% ------------------------------------------------------
+% Léonard Bocquet – Curriculum Vitae
+% Source: BOCQUET_CV.pdf  :contentReference[oaicite:0]{index=0}
+% ------------------------------------------------------
+\documentclass[11pt,a4paper]{article}
+
+% ------------- Encoding & fonts -------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxmath} % optional, matching maths
+
+% ------------- Headings -------------
+\usepackage{sectsty}
+\sectionfont{\bfseries\scshape}
+
+% ------------- Layout & spacings -------------
+\usepackage[margin=0.6in]{geometry}
+\setlength\parindent{0pt}
+\setlength\parskip{4pt}
+\usepackage{changepage}   % gives you the adjustwidth environment
+
+% ------------- Lists & tables -------------
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=0.9cm}
+\usepackage{tabularx}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+% ------------- Links -------------
+\usepackage{xcolor}          % loads the named colour ‘blue’
+\usepackage[
+  colorlinks,                % switch from coloured boxes to coloured text
+  allcolors=blue             % or linkcolor=blue,urlcolor=blue,citecolor=blue …
+]{hyperref}
+
+% ------------- Helper -------------
+\newcommand{\years}[1]{\textbf{#1}\hspace{0.6em}}
+
+% if you compile with XeLaTeX or LuaLaTeX
+\usepackage{fontawesome5}   % for GitHub logo (\faGithub)  
+\usepackage{academicons}    % for Google Scholar logo (\aiGoogleScholar)
+
+% ------------------------------------------------------
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries \textsc{Samiran Dutta}}
+    \\[10pt]
+    PhD Candidate in Economics, Paris School of Economics\\
+    \href{https://sites.google.com/view/samirandutta/home}{Personal Webpage} \,|\,
+    \href{mailto:samiran.dutta@psemail.eu}{samiran.dutta@psemail.eu} \,|\, 
+    % ---- Add GitHub icon + link ----
+    \href{https://github.com/samirandutta}{\faGithub}    
+    \href{https://scholar.google.com/citations?user=Nul09cIAAAAJ&hl=en&oi=ao}{\aiGoogleScholar}
+    \\
+\end{center}
+
+% ---------------------------------------
+\section*{Education}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{Visiting PhD}
+\hfill
+Spring 2025\\ 
+School of Economics, University of Edinburgh\\
+Hosts: Prof. Mike Elsby and Dr. Axel Gottfries\\
+\vspace{-0.1em}\\
+\textbf{PhD Economics}
+\hfill
+2023--Present\\ 
+Paris School of Economics\\
+Supervision: Prof. François Fontaine\\
+\vspace{-0.1em}\\
+\textbf{MRes in Economics}
+\hfill
+2021-2023\\ 
+Paris School of Economics
+\hfill
+\textit{Summa Cum Laude}\\
+\vspace{-0.1em}\\
+\textbf{B.A. in Economics}
+\hfill
+2017-2020\\ 
+Ramjas College, University of Delhi
+\hfill
+\textit{First Division}
+\\
+
+\vspace{-0.5cm}\\
+
+\section*{Research Interests}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+Macroeconomics, Labour Economics, Growth and Productivity
+
+\vspace{-0.1cm}\\
+
+% --------------------------------------------
+\section*{Publications}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{The Role of Services in India’s Post-Reform Economic Growth} with B.N. Goldar and P.C. Das\\
+\textit{Structural Change and Economic Dynamics}, 2024
+
+\vspace{-0.1cm}\\
+
+% --------------------------------------------
+\section*{Working Papers}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{Investigating the “Missing Middle” in Indian Manufacturing} with B.N. Goldar and P. Majumder\\
+\textit{SSRN Working Paper}, 2023
+
+\vspace{-0.1cm}\\
+
+% --------------------------------------------
+\section*{Work in Progress (Selected)}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{The Reserve Army of Labour: Dual Labour Markets and Firm Dynamics}
+\vspace{0.1cm}\\
+(Solo authored, potential \textit{JMP})
+\vspace{0.1cm}\\
+I develop a heterogeneous-firm model with decreasing returns to scale that extends Elsby \& Gottfries (2021) to two labour types -- formal and informal, while embedding Nash bargaining between firms and a monopoly union over the formal wage. Firms can adjust employment on two margins. The formal margin is subject to search frictions, hiring-and-firing costs, and union wage setting; the informal margin is supplied frictionlessly by labour contractors at a per-head fee. Costly adjustment on the formal side produces an inaction band where firms optimally keep formal head-counts unchanged in the face of productivity shocks -- consistent with novel empirical evidence on formal labour inaction. The frictionless informal channel allows firms to adjust to shocks, mitigating misallocation if formal labour were the sole margin. Yet, because informal labour weakens the union’s fallback position, large establishments over-hire informal workers, pushing down bargained formal wages and, paradoxically, increasing aggregate misallocation. Calibrated to Indian plant-level data, the model replicates key empirical patterns in India’s registered manufacturing sector, where “contract” workers act as a de-facto substitutable reserve workforce -- providing flexibility and surplus value of formal wage reduction.
+
+\pagebreak
+
+\textbf{Road Networks and Intra-Sector Misallocation: Theory and Evidence from India}
+\vspace{0.1cm}\\
+(with François Fontaine and S. C. Mudigonda)
+\vspace{0.1cm}\\
+Investing in infrastructure is a major policy tool for developing nations. India's Golden Quadrilateral project was one such project, aimed at improving the quality and width of existing highways connecting the four largest metropolitan cities in India. The previous literature has focused on the first-order effect of improved efficiency through lower transportation costs. In contrast, we focus on the intra-sector general equilibrium effect of improved road networks. A firm’s market position can strengthen or weaken depending on whether its competitors obtain superior connectivity through the upgraded highway network. Leveraging panel data on India's manufacturing firms, combined with an instrument variable strategy, we find that relative increase in road exposure for a competitor firm reduces a given firm's value-added and increases expenditure on materials. To quantify the general equilibrium effects, we build a model of internal trade among heterogeneous firms with differential access to road networks and transport costs.
+
+\vspace{0.6em}\\
+
+\textbf{Firm Dynamics and Within-Firm Misallocation}
+\vspace{0.1cm}\\
+(with Alex McQuitty)
+\vspace{0.1cm}\\
+Theories of resource misallocation often rely on dispersion of marginal revenue products across firms. However, if firms might face adjustment costs in shifting resources across different tasks/occupations, resources will be misallocated within the firm. In this paper, we build a novel theory of intra-firm misallocation with heterogenous occupations and mobility frictions within firms. The model is resolved using an extension of the \lq\lq m-solution\rq\rq\ based on the state-space reduction technique in Elsby and Gottfries (2025). 
+
+
+
+
+% --------------------------------------------
+\section*{Conferences and Seminars}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{2021}: 36th IARIW General Conference (virtual); Sixth KLEMS Conference, Harvard University (virtual)\\
+\textbf{2022}: Seventh World KLEMS Conference, University of Manchester (virtual)\\
+\textbf{2023}:  18th Annual Conference on Economic Growth \& Development, ISI Delhi\\ 
+\textbf{2024}: PSE Macro Workshop (internal), PSE Development Seminar (internal)\\
+\textbf{2025}: UOE School of Economics Macro Reading Group 
+
+% ------------------------------------------------------
+\section*{Grants}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{PSE International Mobility Grant}, Paris School of Economics \hfill Spring 2025\\
+\vspace{-0.3em}\\
+\textbf{EUR PjSE Research Grant}, Paris School of Economics \hfill 2025-26
+
+% ------------------------------------------------------
+\section*{Academic Experience}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+\textbf{\large \textsc{Teaching}}
+\vspace{-0.05cm}
+\begin{adjustwidth}{1em}{0pt}
+\textbf{Introduction to Econometrics, Graduate} \hfill 2024-25 \\
+TA for Prof. Angelo Secchi \& Prof. Nicolas Jacquemet\\
+Paris School of Economics/Université Paris Cité/Université Paris 1 Panthéon–Sorbonne
+\vspace{1.2em}\\
+\textbf{International Trade Theory, Undergraduate} \hfill Spring 2024\\
+TA for Prof. Léa Marchal \\
+Université Paris 1 Panthéon–Sorbonne
+\vspace{1.2em}\\
+\textbf{Macroeconomics, Graduate} \hfill Fall 2023\\
+TA for Prof. François Fontaine \\
+Université Paris 1 Panthéon–Sorbonne
+\end{adjustwidth}
+\vspace{0.5em}
+\textbf{\large \textsc{Research Assistance}}
+\vspace{-0.01cm}
+\begin{adjustwidth}{1em}{0pt}
+\textbf{India-KLEMS Project} \hfill 2020-21\\
+RA under the India-KLEMS team, for the India Productivity Report (\href{https://rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&ID=1217}{link})\\
+CDE, Delhi School of Economics; in collaboration with the Reserve Bank of India
+\end{adjustwidth}
+
+\section*{Academic References}
+\vspace{-0.5em}
+\hrule
+\vspace{1em}
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+  \centering
+  \textbf{François Fontaine}\\
+  Professor\\
+  Paris School of Economics\\
+  \href{mailto:francois.fontaine@univ-paris1.fr}{francois.fontaine@univ-paris1.fr}
+  
+  \vspace{1.5em} % vertical gap between the two left-column referees
+  
+  \textbf{Axel Gottfries}\\
+  Associate Professor\\
+  School of Economics, University of Edinburgh\\
+  \href{mailto:axel.gottfries@gmail.com}{axel.gottfries@gmail.com}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \centering
+  \textbf{Mike Elsby}\\
+  Professor\\
+  School of Economics, University of Edinburgh\\
+  \href{mailto:mike.elsby@ed.ac.uk}{mike.elsby@ed.ac.uk}
+
+  \vspace{1.5em}
+
+  \textbf{K. L. Krishna}\\
+  Emeritus Professor\\
+  Delhi School of Economics\\
+  \href{mailto:krishna@econdse.org}{krishna@econdse.org}
+\end{minipage}
+
+\section*{Languages}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+Hindi (native); Bengali (native); English (proficient)
+
+\section*{Programming Skills}
+\vspace{-0.5em}
+\hrule
+\vspace{0.5em}
+R, Julia, Matlab, \LaTeX
+
+\end{document}
